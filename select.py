@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import os
 import pandas as pd
 import random
@@ -200,10 +194,4 @@ elif page == "📊 Dashboard":
             color_continuous_scale="Viridis"
         )
         st.plotly_chart(fig3, use_container_width=True)
-
-
-# In[ ]:
-
-
-
 
